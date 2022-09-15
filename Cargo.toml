@@ -1,0 +1,11 @@
+[package]
+name = "minecraftstuff"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+valence = { git = "https://github.com/valence-rs/valence" }
+num = "0.4"
+rayon = "1"
